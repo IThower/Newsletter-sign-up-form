@@ -1,0 +1,115 @@
+body {
+    background-color: rgb(54, 53, 53);
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.h1-title-newsletter {
+    font-size: 3em;
+}
+
+.label-email-validation {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.is-valid {
+    display: none !important;
+}
+
+.is-invalid {
+    display: block;
+}
+
+.email-invalid {
+    background-color: rgba(212, 29, 29, 0.342);
+    color: red;
+}
+
+
+.wrapper-main {
+    background-color: white;
+    max-height: 70vh;
+    max-width: 50vw;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.row-main-newsletter {
+    display: flex;
+
+}
+
+.illustration-img {
+    min-height: 30%;
+    min-width: 30%;
+}
+
+
+.form-newsletter {
+    display: flex;
+    flex-direction: column;
+}
+
+.ul-newsletter {
+    list-style-image: url("../img/icon-list.svg");
+
+}
+
+.btn-dark:hover {
+    background: #f12711;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #f5af19, #f12711);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #f5af19, #f12711);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+
+.success-subscription {
+    background-color: rgb(54, 53, 53);
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+
+}
+
+.wrapper-box-subscription {
+
+    background-color: white;
+    max-height: 31.2em;
+    max-width: 31.2em;
+}
+
+@media (max-width: 700px) {
+
+    .wrapper-main {
+        max-height: 120vh;
+        max-width: 120vw;
+    }
+
+    .row-main-newsletter {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .h1-title-newsletter {
+        padding: 0.5em;
+    }
+
+    #subscribe-btn {
+        padding: 5em;
+    }
+
+}
